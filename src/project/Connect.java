@@ -28,7 +28,7 @@ public class Connect {
             Connection conn = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:orcl", "system", "Password123");
             String[] row = new String[3];
             while(line!=null){
-                // Declaration of a String array named name with a size of 
+                // Declaration of a String array named row with a size of no of cols 
                 row=line.split(" ");
                 String id=row[0];
                 String name=row[1];
